@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x2="urn:schemas-microsoft-com:office:excel2" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+ <x:ExcelWorkbook>
+  <x:ActiveSheet>0</x:ActiveSheet>
+ </x:ExcelWorkbook>
+ <o:DocumentProperties>
+  <o:Title>Factorial&lt;/title&gt;</o:Title>
+ </o:DocumentProperties>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S21" ss:Name="Hyperlink">
+   <ss:Alignment />
+   <ss:Borders />
+   <ss:Font ss:Color="#0000FF" ss:FontName="Arial" ss:Size="10" ss:Underline="Single" />
+   <ss:Interior />
+   <ss:NumberFormat />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+  <Style ss:ID="S22" ss:Parent="S21">
+   <ss:Font ss:Color="#0000FF" ss:FontName="Arial" ss:Size="10" ss:Underline="Single" />
+  </Style>
+  <Style ss:ID="S23">
+   <ss:Alignment />
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+   <ss:NumberFormat />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+  <Style ss:ID="S24">
+   <ss:Alignment ss:Horizontal="Left" ss:Indent="1" />
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S25" ss:Parent="S21">
+   <ss:Alignment ss:Horizontal="Left" ss:Indent="1" />
+   <ss:Font ss:Color="#0000FF" ss:FontName="Arial" ss:Size="10" ss:Underline="Single" />
+  </Style>
+  <Style ss:ID="S26">
+   <ss:Alignment ss:Horizontal="Left" ss:Indent="1" />
+   <ss:Font ss:Color="#0000FF" ss:FontName="Arial" ss:Size="10" ss:Underline="Single" />
+  </Style>
+  <Style ss:ID="S27">
+   <ss:Font ss:Color="#0000FF" ss:FontName="Arial" ss:Size="10" ss:Underline="Single" />
+  </Style>
+  <Style ss:ID="S28">
+   <ss:Alignment ss:Horizontal="Left" ss:Indent="2" />
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S29">
+   <ss:Alignment ss:Horizontal="Left" ss:Indent="2" />
+   <ss:Font ss:Color="#0000FF" ss:FontName="Arial" ss:Size="10" ss:Underline="Single" />
+  </Style>
+  <Style ss:ID="S30" ss:Parent="S21">
+   <ss:Alignment ss:Horizontal="Left" ss:Indent="2" />
+   <ss:Font ss:Color="#0000FF" ss:FontName="Arial" ss:Size="10" ss:Underline="Single" />
+  </Style>
+  <Style ss:ID="S31">
+   <ss:Alignment ss:Horizontal="Left" ss:Indent="1" />
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+   <ss:NumberFormat />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+  <Style ss:ID="S32">
+   <ss:Font ss:Bold="1" ss:Color="#000000" ss:FontName="Arial" ss:Size="24" />
+  </Style>
+  <Style ss:ID="S33">
+   <ss:Alignment />
+   <ss:Font ss:Bold="1" ss:Color="#000000" ss:FontName="Arial" ss:Size="24" />
+   <ss:NumberFormat />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+  <Style ss:ID="S34" ss:Parent="S21">
+   <ss:Alignment />
+   <ss:Borders />
+   <ss:Font ss:Color="#0000FF" ss:FontName="Arial" ss:Size="10" ss:Underline="Single" />
+   <ss:NumberFormat />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+  <Style ss:ID="S35">
+   <ss:Borders>
+    <ss:Border ss:Position="Bottom" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+   </ss:Borders>
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S36">
+   <ss:Font ss:Bold="1" ss:Color="#000000" ss:FontName="Arial" ss:Size="18" />
+  </Style>
+  <Style ss:ID="S37">
+   <ss:Alignment />
+   <ss:Font ss:Bold="1" ss:Color="#000000" ss:FontName="Arial" ss:Size="18" />
+   <ss:NumberFormat />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+  <Style ss:ID="S38">
+   <ss:Font ss:Bold="1" ss:Color="#000000" ss:FontName="Arial" ss:Size="13" />
+  </Style>
+  <Style ss:ID="S39">
+   <ss:Alignment />
+   <ss:Font ss:Bold="1" ss:Color="#000000" ss:FontName="Arial" ss:Size="13" />
+   <ss:NumberFormat />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <ss:Names />
+  <ss:Table ss:DefaultRowHeight="12.75" ss:DefaultColumnWidth="48" ss:ExpandedRowCount="66" ss:ExpandedColumnCount="4">
+   <Row ss:Index="1">
+    <Cell><Data ss:Type="String">JavaScript is disabled on your browser.</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="2">
+    <Cell ss:StyleID="S23" ss:HRef="#Sheet1!skip-navbar-top"><Data ss:Type="String">Skip navigation links</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="3">
+    <Cell ss:StyleID="S25" ss:HRef="#package-summary.html!A1"><Data ss:Type="String">Package</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="4">
+    <Cell ss:StyleID="S26"><Data ss:Type="String">Class</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="5">
+    <Cell ss:StyleID="S25" ss:HRef="#package-tree.html!A1"><Data ss:Type="String">Tree</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="6">
+    <Cell ss:StyleID="S25" ss:HRef="#index-all.html!A1"><Data ss:Type="String">Index</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="7">
+    <Cell ss:StyleID="S25" ss:HRef="#class"><Data ss:Type="String">Help</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="8">
+    <Cell ss:StyleID="S24" />
+   </Row>
+   <Row ss:Index="9">
+    <Cell ss:StyleID="S27"><Data ss:Type="String">Summary:</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="10">
+    <Cell ss:StyleID="S29"><Data ss:Type="String">Nested</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="11">
+    <Cell ss:StyleID="S29"><Data ss:Type="String">Field</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="12">
+    <Cell ss:StyleID="S30" ss:HRef="#Sheet1!constructor-summary"><Data ss:Type="String">Constr</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="13">
+    <Cell ss:StyleID="S30" ss:HRef="#Sheet1!method-summary"><Data ss:Type="String">Method</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="14">
+    <Cell ss:StyleID="S24" />
+   </Row>
+   <Row ss:Index="15">
+    <Cell ss:StyleID="S27"><Data ss:Type="String">Detail:</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="16">
+    <Cell ss:StyleID="S29"><Data ss:Type="String">Field</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="17">
+    <Cell ss:StyleID="S30" ss:HRef="#Sheet1!constructor-detail"><Data ss:Type="String">Constr</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="18">
+    <Cell ss:StyleID="S30" ss:HRef="#Sheet1!method-detail"><Data ss:Type="String">Method</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="19">
+    <Cell />
+   </Row>
+   <Row ss:Index="20">
+    <Cell ss:StyleID="S24"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial" html:Color="#000000" html:Size="10">Summary: </Font></ss:Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="21">
+    <Cell ss:StyleID="S24"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial" html:Color="#000000" html:Size="10">Nested | </Font></ss:Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="22">
+    <Cell ss:StyleID="S24"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial" html:Color="#000000" html:Size="10">Field | </Font></ss:Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="23">
+    <Cell ss:StyleID="S25" ss:HRef="#Sheet1!constructor-summary"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><U><Font html:Face="Arial" html:Color="#0000FF" html:Size="10">Constr | </Font></U></ss:Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="24">
+    <Cell ss:StyleID="S25" ss:HRef="#Sheet1!method-summary"><Data ss:Type="String">Method</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="25">
+    <Cell ss:StyleID="S24"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><U><Font html:Face="Arial" html:Color="#0000FF" html:Size="10">Detail: </Font></U></ss:Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="26">
+    <Cell ss:StyleID="S24"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial" html:Color="#000000" html:Size="10">Field | </Font></ss:Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="27">
+    <Cell ss:StyleID="S25" ss:HRef="#Sheet1!constructor-detail"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><U><Font html:Face="Arial" html:Color="#0000FF" html:Size="10">Constr | </Font></U></ss:Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="28">
+    <Cell ss:StyleID="S31" ss:HRef="#Sheet1!method-detail"><Data ss:Type="String">Method</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="29">
+    <Cell ss:StyleID="S23" ss:HRef="#search.html!A1"><Data ss:Type="String">SEARCH</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="31">
+    <Cell ss:StyleID="S33"><Data ss:Type="String">Class Factorial</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="32">
+    <Cell ss:StyleID="S34" ss:HRef="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html"><Data ss:Type="String">java.lang.Object</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="33">
+    <Cell ss:StyleID="S23"><Data ss:Type="String">Factorial</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="34" ss:StyleID="S35">
+    <Cell ss:StyleID="S23" ss:HRef="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial" html:Color="#000000" html:Size="10">public class Factorialextends </Font><U><Font html:Face="Arial" html:Color="#0000FF" html:Size="10">Object</Font></U></ss:Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="35">
+    <Cell ss:StyleID="S24" />
+   </Row>
+   <Row ss:Index="36">
+    <Cell ss:StyleID="S37"><Data ss:Type="String">Constructor Summary</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="37">
+    <Cell ss:StyleID="S23"><Data ss:Type="String">Constructors</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="38">
+    <Cell ss:StyleID="S23"><Data ss:Type="String">Constructor</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="39">
+    <Cell ss:StyleID="S23"><Data ss:Type="String">Description</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="40">
+    <Cell ss:StyleID="S23" ss:HRef="#Sheet1!%3Cinit%3E()"><Data ss:Type="String">Factorial()</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="41">
+    <Cell ss:StyleID="S23"><Data ss:Type="String"> </Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="42">
+    <Cell ss:StyleID="S24" />
+   </Row>
+   <Row ss:Index="43">
+    <Cell ss:StyleID="S37"><Data ss:Type="String">Method Summary</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="44">
+    <Cell />
+    <Cell />
+    <Cell />
+    <Cell ss:StyleID="S23" />
+   </Row>
+   <Row ss:Index="45">
+    <Cell ss:StyleID="S23"><Data ss:Type="String">Modifier and Type</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="46">
+    <Cell ss:StyleID="S23"><Data ss:Type="String">Method</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="47">
+    <Cell ss:StyleID="S23"><Data ss:Type="String">Description</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="48">
+    <Cell ss:StyleID="S23"><Data ss:Type="String">static long</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="49">
+    <Cell ss:StyleID="S23" ss:HRef="#Sheet1!factorial(int)"><Data ss:Type="String">factorial(int numero)</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="50">
+    <Cell ss:StyleID="S23"><Data ss:Type="String">Calcula el factorial de un número entero positivo.</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="52">
+    <Cell ss:StyleID="S39" ss:HRef="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html"><Data ss:Type="String">Methods inherited from class java.lang.Object</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="53">
+    <Cell ss:StyleID="S23" ss:HRef="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#clone()"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial" html:Color="#000000" html:Size="10">clone, </Font><U><Font html:Face="Arial" html:Color="#0000FF" html:Size="10">equals</Font></U><Font html:Face="Arial" html:Color="#000000" html:Size="10">, </Font><U><Font html:Face="Arial" html:Color="#0000FF" html:Size="10">finalize</Font></U><Font html:Face="Arial" html:Color="#000000" html:Size="10">, </Font><U><Font html:Face="Arial" html:Color="#0000FF" html:Size="10">getClass</Font></U><Font html:Face="Arial" html:Color="#000000" html:Size="10">, </Font><U><Font html:Face="Arial" html:Color="#0000FF" html:Size="10">hashCode</Font></U><Font html:Face="Arial" html:Color="#000000" html:Size="10">, </Font><U><Font html:Face="Arial" html:Color="#0000FF" html:Size="10">notify</Font></U><Font html:Face="Arial" html:Color="#000000" html:Size="10">, </Font><U><Font html:Face="Arial" html:Color="#0000FF" html:Size="10">notifyAll</Font></U><Font html:Face="Arial" html:Color="#000000" html:Size="10">, </Font><U><Font html:Face="Arial" html:Color="#0000FF" html:Size="10">toString</Font></U><Font html:Face="Arial" html:Color="#000000" html:Size="10">, </Font><U><Font html:Face="Arial" html:Color="#0000FF" html:Size="10">wait</Font></U><Font html:Face="Arial" html:Color="#000000" html:Size="10">, </Font><U><Font html:Face="Arial" html:Color="#0000FF" html:Size="10">wait</Font></U><Font html:Face="Arial" html:Color="#000000" html:Size="10">, </Font><U><Font html:Face="Arial" html:Color="#0000FF" html:Size="10">wait</Font></U></ss:Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="54">
+    <Cell ss:StyleID="S24" />
+   </Row>
+   <Row ss:Index="55">
+    <Cell ss:StyleID="S37"><Data ss:Type="String">Constructor Details</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="56">
+    <Cell />
+   </Row>
+   <Row ss:Index="57">
+    <Cell ss:StyleID="S28" />
+   </Row>
+   <Row ss:Index="58">
+    <Cell ss:StyleID="S39"><Data ss:Type="String">Factorial</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="59">
+    <Cell ss:StyleID="S23"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial" html:Color="#000000" html:Size="10">public Factorial()</Font></ss:Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="60">
+    <Cell ss:StyleID="S24" />
+   </Row>
+   <Row ss:Index="61">
+    <Cell ss:StyleID="S37"><Data ss:Type="String">Method Details</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="62">
+    <Cell />
+   </Row>
+   <Row ss:Index="63">
+    <Cell ss:StyleID="S28" />
+   </Row>
+   <Row ss:Index="64">
+    <Cell ss:StyleID="S39"><Data ss:Type="String">factorial</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="65">
+    <Cell ss:StyleID="S23"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial" html:Color="#000000" html:Size="10">public static long factorial(int numero)</Font></ss:Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="66">
+    <Cell ss:StyleID="S23"><Data ss:Type="String">Calcula el factorial de un número entero positivo.</Data>
+    </Cell>
+   </Row>
+  </ss:Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup />
+   <Print>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
